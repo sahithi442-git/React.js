@@ -1,0 +1,93 @@
+To create a single page application we use React.js.
+To create a multi page application we use Angular.js.
+Framework is collection of   libraries .
+libraries  are function and methods.
+
+REACT.JS:
+>React js is library,it is used develop a single page application.
+>iT is a component based application.
+        component are reusable.
+>React is declarative.
+React.js will render component on the web page without  page reloading
+>introduced in 2013 by company called facebook/meta by jordan walke.
+>Before React we are using Backbone.js and ember.js.
+>angular.js was a microsoft Framework
+React uses  a MVC architrcture.  
+
+ajex-asynchronous javascript xml.
+ajex -u can fetch data without page reloading.
+
+Rea
+ct.js will render component on the web page without  page reloading
+
+virtual dom is copy of Real dom
+VD is created by React.js
+React  dependancy have mthod  called create
+
+
+--->how to create Reacttwo ways
+1)CDN ways
+2)node ways(developers use node)
+
+a) npm -used to install ,updatr, delete package in js.
+        >packages will be installed globally.
+
+     npm install -g create-react-application
+     craete-react-app app-name
+
+ b) npx- >used to execute packages without installing.    
+       > no need to install packages globally.
+         npx-craet-react- app app-name
+
+         **By using Yarn,vite we can installlatest version of react
+         npm create-vite@latest = install altest version of react
+
+
+         component are 2 ypes classbased and function based
+class component: it is  statefull component.
+                 constructor is used to data,
+                 it uses extended keyword
+
+
+         import Recat from 'react'
+         class demo extends React.component {
+                render() {
+                        return <h1> iam class based component</h1>
+                }
+         }
+         export default demo;
+
+functionbased component-it is javascript pure function.it doesnot have any react life cycle.
+                        it doesnot uses render method.it is stateless.
+                        after react 16.8 FBC become ststefuull component because of hooks,
+                        no need of using constructor and extend keyword
+
+                        import React from 'react'
+                        functiondem02()
+                        {
+                                return <h1> iam functionbased component</h1>
+
+                        }
+                        export default demo2;
+
+
+ 3)react
+ 1) using React.createElement("tag.name","hello")
+    eg:
+    React.createElement("h1", "null", "hello")
+     React.createElement("h2", "{id: "demo"}", "hello")
+
+
+
+PROPS: stands for properties
+     used to send dATA FRom one component to component.
+     props are uni direction.
+     props  are object.
+     props are immutable( read-only)-means we cant rewrite the props.
+     return  
+
+
+     State: > state is used to store the data in the sAME component and update the
+      data  in the sAME component
+      > STATE are mutable(can be read&write)
+      >state syntax: let[intial-value , function] =useState(intial-value)

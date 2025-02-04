@@ -11,14 +11,15 @@
 // }
 // export default Child
 
+//
 import React from 'react'
 
 const Child = (props) => {
   return (
     <div>
-        <h1> my name is {props.name}</h1>
+        <button onClick={() => props.fun()} >click</button>
     </div>
   )
 }
 
-export default Child
+export default Child
