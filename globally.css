@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva,  sans-serif;
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 70px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+#sub-nav span svg{
+    fill: #fff;
+    height: 1.7em;
+}
+
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+#sub-nav ol li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#main{
+    /* border: 2px solid red; */
+    height: 70vh;
+    background-color: #b49bc8;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 100%;
+}
+
+#main h1{
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+#main h2{
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#main button{
+    margin-top: 40px;
+    padding: 16px 33px;
+    border-radius: 50px;
+    border: none;
+    text-transform: capitalize;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#main button:hover{
+    transform: scale(1.1);
+}
+
+#main p{
+    margin-top: 40px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+#main p a{
+    color: #000;
+}
+
+#main1{
+    border: 2px solid ;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+#main1 h1{
+    
+}
