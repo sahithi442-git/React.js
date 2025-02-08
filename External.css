@@ -1,0 +1,15 @@
+details{
+    border: 2px solid;
+    background-color: #000;
+    color: #fff;
+    list-style: none;
+    position: fixed;
+}
+summary{
+    list-style: none;
+}
+
+details:hover{
+    cursor: pointer;
+
+}
