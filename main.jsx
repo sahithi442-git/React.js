@@ -2,6 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import External from './styles/External'
 import Ref from './useRef/Ref'
+import List from './list-keys/List' 
+
 // import './index.css'
 // import State from './state/State.jsx'
 // import Inline from './styles/Inline.jsx'
@@ -24,5 +26,7 @@ createRoot(document.getElementById('root')).render(
     <Comp2/> */}
     {/* <External/> */}
     <Ref />
+    <List />
+
   </StrictMode>,
 )
